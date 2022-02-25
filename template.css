@@ -1,0 +1,79 @@
+
+.splash-page{
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    height: 33%;
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    border: 1px black dashed;
+    flex-direction: column;
+}
+
+.img {
+    height: 90%;
+    width: 40%;
+}
+
+.abt {
+    justify-self: flex-end;
+    flex: 4;
+    border: 1px black dashed;
+}
+
+.portfolio{
+    display: flex;
+    height: 33%;
+    background-color:gainsboro;
+}
+
+.proj{
+    flex:1;
+    border: 1px black dashed;
+}
+
+.col {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px black dashed;
+}
+
+.personal{
+    display: flex;
+    height: 33%;
+    background-color: wheat;
+}
+
+.profil {
+    flex:4;
+    border: 1px black dashed;
+}
+
+.contact {
+    flex:2;
+    border: 1px black dashed;
+}
+
+.subtitle {
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: dotted underline;
+    margin-left: 1cm;
+    text-align: center;
+}
+
+p{
+    line-height: 300%;
+    margin-left: 1cm;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
